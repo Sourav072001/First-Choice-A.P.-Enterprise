@@ -1,0 +1,3 @@
+/* About page additions */
+.about-page .about-image{transition:filter .35s,transform .35s}
+.about-page .about-image:hover{filter:saturate(1.1);transform:translateY(-4px)}

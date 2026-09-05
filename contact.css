@@ -1,0 +1,4 @@
+/* Contact page additions */
+.contact-page .query-form{box-shadow:8px 8px 0 var(--sage)}
+.contact-page .contact-details strong{transition:color .2s}
+.contact-page .contact-details strong:hover{color:var(--rust)}

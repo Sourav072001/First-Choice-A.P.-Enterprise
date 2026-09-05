@@ -1,0 +1,22 @@
+/* Services page additions */
+.services-page .service-detail{scroll-margin-top:30px}
+.services-page .service-detail-image{transition:transform .35s,filter .35s}
+.services-page .service-detail:hover .service-detail-image{filter:saturate(1.12);transform:scale(1.02)}
+.services-page .service-showcase{padding:25px 11% 70px}
+.services-page .showcase-grid{align-items:center;display:grid;gap:42px;grid-template-columns:1.08fr .92fr;margin-bottom:36px}
+.services-page .showcase-grid.reverse{grid-template-columns:.92fr 1.08fr}
+.services-page .showcase-image{background-position:center;background-size:cover;border:1px solid var(--line);box-shadow:12px 12px 0 rgba(32,37,33,.08);min-height:330px;width:100%}
+.services-page .showcase-copy h2{font-size:clamp(30px,4vw,52px);line-height:1.05;margin:0 0 18px}
+.services-page .showcase-copy p{font-size:17px;max-width:500px;margin:0}
+.services-page .showcase-copy .eyebrow{margin-bottom:18px}
+.services-page .interior-one{background-image:var(--image-interiorOne)}
+.services-page .interior-two{background-image:var(--image-interiorTwo)}
+.services-page .kitchen-one{background-image:var(--image-kitchenOne)}
+.services-page .kitchen-two{background-image:var(--image-kitchenTwo)}
+.services-page .furniture-one{background-image:var(--image-furnitureOne)}
+.services-page .furniture-two{background-image:var(--image-furnitureTwo)}
+.services-page .paint-one{background-image:var(--image-paintOne)}
+.services-page .paint-two{background-image:var(--image-paintTwo)}
+.services-page .flooring-one{background-image:var(--image-flooringOne)}
+.services-page .flooring-two{background-image:var(--image-flooringTwo)}
+@media(max-width:760px){.services-page .service-showcase{padding:15px 6% 55px}.services-page .showcase-grid,.services-page .showcase-grid.reverse{display:block}.services-page .showcase-image{margin-bottom:24px;min-height:260px}}
